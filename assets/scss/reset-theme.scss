@@ -1,0 +1,16 @@
+body {
+    .theme--light {
+        &.v-application {
+            background-color: transparent;
+            color: inherit;
+        }
+    }
+    .v-btn {
+        &.v-size--large {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: normal;
+            text-transform: initial;
+        }
+    }
+}

@@ -1,4 +1,11 @@
-// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
-//
-// The variables you want to modify
-// $font-size-root: 20px;
+$color-primary: hsla(0,0%,13%, 1); // #212121
+$color-secondary: hsla(2,78%,49%, 1); // #DF201B
+
+$color-dark: hsla(0,0%,11%, 1); // #1B1B1B
+
+$color-white: hsla(0,0%,100%, 1); // #FFFFFF;
+$color-header: hsla(0,0%,100%, 1); // #FFFFFF
+$color-header-sec:  hsla(0,0%,95%, 1); // #F2F2F2
+$color-body: hsla(0,0%,76%, 1); // #C1C1C1
+
+$font-body: 'Noto Sans', -apple-system, BlinkMacSystemFont, sans-serif;

@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5% !important;
+}
+body {
+    background-color: $color-primary;
+    color: $color-white;
+    .v-application {
+        font: 400 1.8rem/calc(32 / 18) $font-body;
+        color: $color-white;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    + div {
+        margin-top: 50px;
+    }
+}
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: calc(50 / 35);
+}
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 16px;
+}
+section {
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 100%;
+    &:not(.intro) {
+        padding: 50px 0;
+    }
+}
+.v-application {
+    p {
+        margin: 16px 0;
+        width: 100%;
+        float: left;
+    }
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.c2a {
+    width: 100%;
+    margin: 16px 0;
+    float: left;
+}
